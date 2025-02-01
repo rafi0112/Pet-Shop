@@ -29,7 +29,7 @@
         <div class="max-w-screen-xl mx-auto p-8 flex justify-between items-center">
             <div class="flex items-center gap-x-2">
                 <img src="assets/logo-header.png" alt="logo" class="w-12 h-12">
-                <a class="font-bold text-3xl">Browse<span class="text-[#FFDC26]">4</span><span>Pets</span></a>
+                <a class="font-bold text-3xl max-sm:hidden">Browse<span class="text-[#FFDC26]">4</span><span>Pets</span></a>
             </div>
             <div class="navbar-center max-sm:hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -74,6 +74,20 @@
                 <a class="btn bg-slate-50 border border-yellow-400 px-8 mr-2">Log in</a>
                 <a class="btn bg-btn-primary px-8">Register</a>
             </div>
+
+            <div class="lg:hidden">
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                        <i class="fa-duotone fa-solid fa-bars text-3xl"></i>
+                    </div>
+                    <ul
+                        
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Find a Pet</a></li>
+                        <li><a>Breads</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
         </div>
     </header>
 
